@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Ubuntu, Arial, Sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: #FEFAEB;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    background-color: #D2B48C;
+    color: #8C3826;
+    text-align: center;
+}
+
+h1 {line-height: 200%;}
+h2 {color: #8C3826}
+
+nav {
+    text-align: center;
+    color:#581204;
+    font-weight: bold;
+}
+
+a {color: #f42409;}
+
+dt {
+    font-weight: bolder;
+    color: #581204}
+
+.description {font-style: italic;}
+
+.price {text-indent: 0.5em;
+        color: #b52e13;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+
