@@ -2,6 +2,9 @@
 
 body {
     background-color: #FCEBB6;
+    background-image: url(fadedroad50.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #221811;
     font-family: Ubuntu, Arial, Sans-serif;
 }
@@ -22,6 +25,7 @@ header {
 h1 {line-height: 200%;}
 h2 {color: #8C3826}
 h3 {color: #581204}
+h4 {color:#320901}
 
 nav {
     text-align: center;
