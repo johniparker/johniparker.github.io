@@ -1,57 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300&display=swap");
 
 body {
-    background-color: #FCEBB6;
-    background-image: url(fadedroad50.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #221811;
-    font-family: Ubuntu, Arial, Sans-serif;
+  background-color: #fcebb6;
+  background-image: url(images/fadedroad50.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #221811;
+  font-family: Ubuntu, Arial, Sans-serif;
 }
 
 #wrapper {
-    width: 80%;
-    background-color: #FEFAEB;
-    margin-right: auto;
-    margin-left: auto;
+  width: 80%;
+  min-width: 900px;
+  max-width: 1280px;
+  background-color: #fefaeb;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 5px 5px 5px #232222;
 }
 
 header {
-    background-color: #D2B48C;
-    color: #8C3826;
-    text-align: center;
+  background-color: #d2b48c;
+  color: #8c3826;
+  text-align: center;
+  padding: 5px 5px;
 }
 
-h1 {line-height: 200%;}
-h2 {color: #8C3826}
-h3 {color: #581204}
-h4 {color:#320901}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  color: #8c3826;
+}
+h3 {
+  color: #8c3826;
+}
+
+h4 {
+  color: #320901;
+  background-color: #d2b48c;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-bottom: 0.25em;
+}
 
 nav {
-    text-align: center;
-    color:#581204;
-    font-weight: bold;
+  text-align: center;
+  color: #581204;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 5px 5px;
 }
 
-a {color: #f42409;}
+nav a {
+  text-decoration: none;
+}
+
+main {
+  display: block;
+  padding: 0 2em 2em;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+a {
+  color: #f42409;
+}
 
 dt {
-    font-weight: bolder;
-    color: #581204}
-
-.description {font-style: italic;}
-
-.price {text-indent: 0.5em;
-        color: #b52e13;
+  font-weight: bolder;
+  color: #8c3826;
 }
 
+.description {
+  font-style: italic;
+}
+
+.price {
+  text-indent: 0.5em;
+  color: #b52e13;
+}
+
+#homehero {
+  height: 300px;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 footer {
-    background-color: #D2B48C;
-    font-size: .60em;
-    font-style: italic;
-    text-align: center;
+  background-color: #d2b48c;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  border-top: 2px solid #8c3826;
 }
-
-
-
-
