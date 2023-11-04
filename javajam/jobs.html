@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Parker &mdash; JavaJam Coffee Bar Music</title>
+    <title>John Parker &mdash; JavaJam Coffee Bar Jobs</title>
     <meta name="description" content="JavaJam Coffee Bar Case Study" />
     <meta name="author" content="John Parker" />
     <meta
@@ -31,31 +31,32 @@
       </nav>
 
       <main>
-        <div id="heroguitar"></div>
-        <h2>Music at JavaJam</h2>
+        <div id="herojobs"></div>
 
+        <h2>Jobs at JavaJam</h2>
         <p>
-          The first Friday night each month at JavaJam is a special night. Join
-          us from 8 pm to 11 pm for some music you won&#39;t want to miss!
+            Want to work at JavaJam? 
+            Fill out the form below to start your application. 
+            All information is required.
         </p>
 
-        <h4>January</h4>
+        <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+            <label for="myName">Name: </label>
+            <input type="text" id="myName" name="myName" required>
+            
+            <label for="myEmail">Email: </label>
+            <input type="email" id="myEmail" name="myEmail" required>
+            
+            <label for="myStart">Start Date: </label>
+            <input type="date" id="myStart" name="myStart" required>
 
-        <div class="details">
-          <a href="images/melanie.jpg">
-            <img src="images/melaniethumb.jpg" alt="Melanie Thumbnail" />
-          </a>
-          <p>Melanie Morris entertains with her melodic folk style.</p>
-        </div>
-
-        <h4>February</h4>
-
-        <div class="details">
-          <a href="images/greg.jpg">
-            <img src="images/gregthumb.jpg" alt="Greg Thumbnail" />
-          </a>
-          <p>Tahoe Greg is back from his tour. New songs. New stories.</p>
-        </div>
+            <label for="myExperience">Experience: </label>
+            <textarea 
+                name="myExperience" id="myExperience" 
+                rows="2" cols="20" required>
+            </textarea>
+            <input type="submit" value="Apply Now">
+        </form>
       </main>
 
       <footer>
