@@ -123,6 +123,7 @@ img {
 
 a {
   color: #f42409;
+  text-decoration: none;
 }
 
 dt {
@@ -193,6 +194,7 @@ input, textarea {
 }
 
 footer {
+  color: black;
   background-color: #d2b48c;
   font-size: 0.6em;
   font-style: italic;
