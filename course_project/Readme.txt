@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+This is my final project for my Intro to Web Design/Development.
 
 Template Name: Folio
 Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
